@@ -1,0 +1,26 @@
+{"screens":[
+            {"screen":[
+                       {"label":"Account","name":"accountId","entityType":"ACCOUNT","action":"VIEW_ENTITY"},      
+                       {"label":"Work Phone #", "name":"phone", "action":"PHONE"},
+                       {"label":"Cellular Phone #", "name":"mobilePhone", "action":"PHONE"},
+                       {"label":"Email", "name":"email","action":"EMAIL"},
+                       {"label":"Job Title", "name":"jobTitle"},
+                       {"label":"Fax", "name":"fax"},
+                       {"label":"Assistant Name", "name":"assistantName"},
+                       {"label":"Assistant Phone #", "name":"assistantPhone","action":"PHONE"}, 
+                       {"label":"Address","name":"address","action":"ADDRESS"},
+                       {"label":"Address Type","name":"addressType"},
+                       {"label":"Contact Type", "name":"contactType"},
+                       {"label":"Home Phone #", "name":"homePhone","action":"PHONE"},
+                       {"label":"Never Email" , "name":"neverEmail"},
+                       {"label":"Best Time To Call","name":"bestTimeToCall"},
+                       {"label":"Lead Source Name","name":"leadSource"},
+                       {"label":"Date of Birth","name":"dateOfBirth"},
+                       {"label":"Owner","name":"ownerId", "entityType":"USER"},
+                       {"label":"Modified","name":"modifiedById","entityType":"USER"}
+            ]}
+    ]
+}
+
+
+

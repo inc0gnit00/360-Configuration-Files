@@ -1,0 +1,66 @@
+{
+    "items":
+    [
+        {
+            "label":"NAME",
+            "title":"Name",
+            "fieldName":"CompanyName",
+            "pickerType":"RSSTextField"
+        },
+     
+        {
+            "label":"ACCOUNT TYPE",
+            "title":"Account Type",
+            "fieldName":"AccountType",
+            "entity":"Picklist",
+            "entityType":"0",
+            "pickerType":"RSSTablePickerView",
+            "includePickerItem":"All"
+        },
+     
+        {
+            "label":"INDUSTRY",
+            "title":"Industry",
+            "fieldName":"AccountSubType",
+            "pickerType":"RSSTextField"
+        },
+     
+        {
+            "label":"STREET/NUMBER",
+            "title":"Street/Number",
+            "fieldName":"ShipToAddress1",
+            "pickerType":"RSSTextField"
+        },
+     
+        {
+            "label":"CITY",
+            "title":"City",
+            "fieldName":"ShipToCity",
+            "pickerType":"RSSTextField"
+        },
+     
+        {
+            "label":"COUNTRY",
+            "title":"Country",
+            "fieldName":"ShipToCountry",
+            "entity":"Picklist",
+            "entityType":"4",
+            "pickerType":"RSSTablePickerView",
+            "defaultValue":"USA",
+            "includePickerItem":"All",
+     
+            "dependencies":
+            [{
+                "label":"STATE",
+                "title":"State",
+                "fieldName":"ShipToState",
+                "entity":"Picklist",
+                "entityType":"5",
+                "pickerType":"RSSTablePickerView",
+                "validParentValues":"USA",
+                "includePickerItem":"All"
+             }]
+        }
+    ]
+}
+

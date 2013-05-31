@@ -1,0 +1,15 @@
+{"screens":[
+   {"screen":
+       [
+            {"label":"Location", "name":"location"}, 
+            {"label":"Account Type", "name":"accountType"},
+            {"label":"Phone", "name":"phone", "action":"PHONE"},
+            {"label":"Ship to","name":"shipToAddress","action":"ADDRESS"},
+            {"label":"Fax", "name":"fax"},
+            {"label":"Website","name":"website","action":"WEBSITE"},
+            {"label":"Currency","name":"currency"},
+            {"label":"Annual Revenues","name":"annualRevenues"},
+            {"label":"Region", "name":"region"},
+            {"label":"Owner","name":"ownerFullName"}
+        ]}]
+}

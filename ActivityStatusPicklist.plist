@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+    <string></string>
+	<string>Deferred</string>
+	<string>Waiting For Someone Else</string>
+	<string>In Progress</string>
+	<string>Not Started</string>
+	<string>Assigned</string>
+	<string>In Call</string>
+	<string>Planned</string>
+	<string>Submitted</string>
+	<string>Signed</string>
+	<string>Completed</string>
+</array>
+</plist>

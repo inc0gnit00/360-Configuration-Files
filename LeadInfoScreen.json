@@ -1,0 +1,15 @@
+{"screens":[
+    {"screen":[
+        {"label":"Account","name":"accountId","entityType":"ACCOUNT","action":"VIEW_ENTITY"},
+        {"label":"Currency","name":"currencyCode"},
+        {"label":"Potential Revenue","name":"potentialRevenue"},
+        {"label":"Product Interest", "name":"productName"},            
+        {"label":"Status", "name":"status"},
+        {"label":"Rating", "name":"rating"},
+        {"label":"Close Date","name":"estimatedCloseDate"}
+       ]}
+    ]
+}
+
+
+

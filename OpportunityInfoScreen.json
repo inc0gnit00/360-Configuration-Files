@@ -1,0 +1,16 @@
+{"screens":[
+    {"screen":[
+        {"label":"Revenue","name":"revenue"},
+        {"label":"Currency Code","name":"currencyCode"},
+        {"label":"Account","name":"accountId","entityType":"ACCOUNT","action":"VIEW_ENTITY"},      
+        {"label":"Close Date", "name":"closeDate"},            
+        {"label":"Sales Stage", "name":"salesStage"},
+        {"label":"Probability", "name":"probability"},
+        {"label":"Forecast", "name":"forecast"},
+        {"label":"Next Step","name":"nextStep"}
+        ]}
+    ]
+}
+
+
+

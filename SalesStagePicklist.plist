@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>Open</string>
+	<string>Identifying Opportunity</string>
+	<string>Contact Appropiate Prospect</string>
+	<string>Qualification</string>
+	<string>On-Site Discovery</string>
+	<string>Agreement to Purchase</string>
+	<string>Wholasaler Alignment</string>
+	<string>Purchase Confirmed-Wholesaler</string>
+	<string>Purchase Re-Confirmation</string>
+	<string>Closed/Won</string>
+	<string>Closed/Lost</string>
+</array>
+</plist>

@@ -1,0 +1,44 @@
+{
+    "items":
+    [
+        {
+            "label":"NAME",
+            "title":"Name",
+            "fieldName":"Title",
+            "pickerType":"RSSTextField"
+        },
+
+        {
+            "label":"STREET/NUMBER",
+            "title":"Street/Number",
+            "fieldName":"ToAddress3",
+            "pickerType":"RSSTextField"
+        },
+
+        {
+            "label":"CITY",
+            "title":"City",
+            "fieldName":"ToCity",
+            "pickerType":"RSSTextField"
+        },
+
+        {
+            "label":"COUNTRY",
+            "title":"Country",
+            "fieldName":"ToCountry",
+            "entity":"Country",
+            "pickerType":"RSSTablePickerView",
+     
+            "dependencies":
+            [{
+                "label":"STATE",
+                "title":"State",
+                "fieldName":"ToState",
+                "entity":"State",
+                "pickerType":"RSSTablePickerView",
+                "validParentValues":"USA"
+             }]
+        }
+    ]
+}
+
